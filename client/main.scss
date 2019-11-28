@@ -1,4 +1,17 @@
+@import "{}/node_modules/bootstrap/scss/bootstrap";
+
+// Font-size main mixin
+@mixin font-size($sizeValue: 1.6) {
+  font-size: ($sizeValue * 10) + px;
+  font-size: $sizeValue + rem;
+}
 * {
   padding: 0px;
   margin: 0px;
+}
+body, html {
+  font-size: 100%;
+  background-image: url("https://placeimg.com/1000/1000/any");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
