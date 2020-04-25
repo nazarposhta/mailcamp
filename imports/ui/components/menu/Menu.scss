@@ -1,0 +1,24 @@
+.menu {
+    background-color: white;
+    a {
+        color: #0070e0;
+        &:not([href]) {
+            color: #0070e0;
+        }
+        &:hover {
+            cursor: pointer;
+            color: #0070e0;
+            text-decoration: underline;
+            &:not([href]) {
+                color: #0070e0;
+                cursor: pointer;
+                text-decoration: underline;
+            }
+        }
+    }
+    .logo-img {
+        position: absolute;
+        top: 2px;
+        right: 30px;
+    }
+}
