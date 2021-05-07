@@ -19,7 +19,7 @@
     "react-router-dom": "^5.1.2",
     "sweetalert2": "^9.10.1",
     "toastr": "^2.1.4",
-    "underscore": "^1.9.1"
+    "underscore": "^1.12.1"
   },
   "meteor": {
     "mainModule": {
